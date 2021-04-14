@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Zen+Dots&display=swap');
+ 
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color:#9e9b9b;
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+#header{
+    padding: 20px 50px 0 50px;
+}
+
+ #header .logo .logo_1{   
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: #bccc6f;
+    font-weight: 900;
+    padding-right: 3px;
+}
+
+#header .logo .logo_2{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+
+#header .header_title{
+    padding-top: 20px;
+}
+
+#header .header_contact{
+    font-size: 12px;
+}
+
+#header .contact_phone{
+    padding-right:10px ;
+}
+#header .logo{
+    float: left;
+}
+
+#header .header_contact{
+    float: right;
+}
+#header .navbar{
+    color:#474646;
+    margin-top: -20px;
+}
+#header .navbar ul{
+    list-style: none;
+}
+
+#header .navbar li{
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+#header .navbar ul li a{
+    text-decoration: none;
+    color:#474646;
+    font-weight: 900;
+}
+
+#header .navbar .active{
+    color: rgb(255, 60, 0);
+}
+#header .navbar .nav_item{
+    float:right;
+}
+
+#header .navbar .nav_social{
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+/* CAROUSEL */
+
+#carousel{
+    background-image: url('./../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    color: white;
+    position: relative;
+}
+
+#carousel .carousel_content{
+    padding-top: 30vh;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#carousel .carousel_text{
+    margin-bottom: 50px;
+}
+
+#carousel .carousel_text h1{
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#carousel .carousel_text p{
+    letter-spacing:1px ;
+    line-height: 2;
+}
+
+#carousel .carousel_btn button{
+    color: white;
+    background-color: #82b62d;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 100px;
+    border: none;
+}
+
+#carousel .carousel_select i{
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+#carousel .carousel_select .active{
+    color: #82b62d;
+}
+
+#carousel .arrow{
+    position: absolute;
+    right: 20px;
+    bottom: -15px;
+}
+
+/* WELCOME */
+
+#welcome{
+    padding: 30px 50px;
+    position: relative;
+}
+
+#welcome h2, h4{
+    color: black;
+}
+
+#welcome .btn button{
+    color: white;
+    background-color: #82b62d;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    border: none;
+}
+
+#welcome h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+#welcome .welcome_title{
+    text-align: center;
+}
+
+#welcome .welcome_item{
+    float: left;
+    box-sizing: border-box;
+}
+
+#welcome .top_text{
+    width: 60%;
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+#welcome .top_text p{
+    font-size: 12px;
+    line-height: 2;
+}
+
+#welcome .top_img{
+    width: 40%;
+    padding: 0 40px 40px 40px;
+}
+#welcome .top_img img{
+    width: 100%;
+}
+
+/* Bottom Welcome */
+#welcome .bottom_img{
+    width: 40%;
+    padding: 0 40px 40px 40px;
+}
+
+#welcome .bottom_text{
+    width: 60%;
+    padding-right: 60px;
+}
+
+#welcome .bottom_img img{
+    width: 100%;
+}
+
+#welcome .arrow{
+    position: absolute;
+    top: 50vh;
+    right: 15px;
+}
+
+/* SERVICES */
+
+#services{
+    text-align: center;
+    background-color:#f0f5f8 ;
+    position: relative;
+}
+
+#services h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#services .services_content{
+    padding: 0 80px;
+    padding-top: 30px;
+}
+
+#services .services_item{
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#services .services_item i{
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    color: #82b62d;
+}
+
+#services .services_item p{
+    font-size: 12px;
+}
+
+#services .arrow{
+    position: absolute;
+    top: 50vh;
+    right: 15px;
+}
+
+/* NEWS */
+#news{
+    text-align: center;
+    position: relative;
+    padding: 40px 0 80px 0;
+}
+
+#news h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#news .news_content{
+    margin-top: 50px;
+    padding: 30px 80px 50px 80px;
+}
+
+#news .news_item{
+    float: left;
+    box-sizing: border-box;
+    padding:0 10px ;
+}
+
+#news .news_left{
+    width: 40%;
+}
+
+#news .news_left img{
+    width: 90%;
+}
+
+#news .news_right{
+    width: 35%;
+    text-align: left;
+    color: black;
+}
+
+#news .right_acc span{
+    padding-right: 80px;
+    font-size: 12px;
+}
+
+#news .news_right h2{
+    font-weight: 900;
+    padding-left: 35px;
+}
+
+#news .btn button{
+    color: white;
+    background-color: #82b62d;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    border: none;
+}
+
+#news .arrow{
+    position: absolute;
+    top: 50vh;
+    right: 15px;
+}
+
+/* JOIN */
+
+#join{
+    background-image: url('./../images/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+#join .join_content{
+    text-align: center;
+    padding:50px;
+}
+
+#join h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+#join .join_search{
+    height: 30px;
+}
+#join .join_search input{
+    width: 350px;
+    height: 30px;
+}
+
+#join .join_search i{
+    color: white;
+    padding: 10px;
+    background-color: #82b62d;
+    border: none;
+}
+
+#join .arrow{
+    position: absolute;
+    right: 15px;
+}
+
+/* Footer */
+#footer .footer_list{
+    padding: 50px;
+}
+
+#footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+#footer b{
+    color: black;
+}
+
+#footer span{
+    color: #82b62d;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
+}
+
+#footer i{
+    margin-right: 10px;
+}
+
+#footer .footer_item{
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#footer .history{
+    width: 35%;
+}
+
+#footer .twitter{
+    width: 35%;
+}
+
+#footer .event{
+    width: 20%;
+}
+
+#footer .nav{
+    width: 10%;
+    padding-left: 60px;
+}
+
+/* COPPYRIGHT */
+#coppyright{
+    text-align: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#coppyright p{
+    padding: 20px;
+}
+
+#coppyright span{
+    color: #82b62d;
+}
